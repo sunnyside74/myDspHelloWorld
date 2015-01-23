@@ -28,6 +28,7 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
+		putstring("~   ...");
 		putstring("~  I ...");
 		putstring("~  IN ...");
 		putstring("~  INI ...");
