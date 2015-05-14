@@ -1,1 +1,1 @@
-"./src/main.obj" "../C6748.cmd" -l"libc.a" -l"C:\ti\dsplib_c674x_3_4_0_0\packages\ti\dsplib\lib\dsplib.lib" 
+"./src/main.obj" -l"libc.a" -l"C:\ti\dsplib_c674x_3_4_0_0\packages\ti\dsplib\lib\dsplib.lib" 

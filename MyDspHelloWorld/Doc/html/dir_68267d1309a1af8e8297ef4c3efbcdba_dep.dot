@@ -1,4 +1,4 @@
-digraph "D:/Users/i04055dt/Documents/workspace_c6000/Study/src" {
+digraph "D:/Users/i04055dt/Documents/GitHub/myDspHelloWorld/MyDspHelloWorld/src" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];

@@ -14,8 +14,9 @@
 
 void putstring(char *str)
 {
-	while (*str) {
-		putchar( *(str++) );
+	while (*str)
+	{
+		putchar(*(str++));
 	}
 	fflush(stdout);
 }
@@ -28,22 +29,22 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		putstring("~   ...");
-		putstring("~  I ...");
-		putstring("~  IN ...");
-		putstring("~  INI ...");
-		putstring("~  INIT ...");
-		putstring("~  INITI ...");
-		putstring("~  INITIA ...");
-		putstring("~  INITIAL ...");
-		putstring("~  INITIALI ...");
-		putstring("~  INITIALIZ ...");
-		putstring("~  INITIALIZI ...");
-		putstring("~  INITIALIZIN ...");
-		putstring("~  INITIALIZING ...");
+		putstring("~   ...\n");
+		putstring("~  I ...\n");
+		putstring("~  IN ...\n");
+		putstring("~  INI ...\n");
+		putstring("~  INIT ...\n");
+		putstring("~  INITI ...\n");
+		putstring("~  INITIA ...\n");
+		putstring("~  INITIAL ...\n");
+		putstring("~  INITIALI ...\n");
+		putstring("~  INITIALIZ ...\n");
+		putstring("~  INITIALIZI ...\n");
+		putstring("~  INITIALIZIN ...\n");
+		putstring("~  INITIALIZING ...\n");
 	}
 
-
+//	DSPF_sp_fir_gen();
 	return 0;
 }
 
